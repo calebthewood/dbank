@@ -1,19 +1,10 @@
 import { dbank } from "../../declarations/dbank";
 
-document.querySelector("form").addEventListener("submit", async (e) => {
-  e.preventDefault();
-  const button = e.target.querySelector("button");
+const USD = Intl.NumberFormat("en-US",{style: "currency",currency: "USD"});
 
-  const name = document.getElementById("name").value.toString();
-
-  button.setAttribute("disabled", true);
-
-  // Interact with foo actor, calling the greet method
-  const greeting = await dbank.greet(name);
-
-  button.removeAttribute("disabled");
-
-  document.getElementById("greeting").innerText = greeting;
-
-  return false;
+window.addEventListener("load", async function () {
+  const currentAmount = await dbank.checkBalance();
+  const valueUSD = USD.format(currentAmount)
+  document.getElementById("value").innerText = valueUSD
 });
+
