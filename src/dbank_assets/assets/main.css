@@ -6,7 +6,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-
+img {
+    border-radius: 5px;
+}
 h1,
 h2 {
   margin: 0;

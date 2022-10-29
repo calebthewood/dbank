@@ -1,14 +1,14 @@
 
 Hope you enjoy your new logo, here are the people that
 made your beautiful logo happen :)
-font name: Kingthings_Petrock
-font link: http://www.kingthingsfonts.co.uk/fonts/fonts.htm
-font author: Kingthings
-font author site: http://www.kingthingsfonts.co.uk/
+font name: Sunday-Regular
+font link: http://dimitriana.com/portfolio_page/sunday-font/
+font author: Anastasia Dimitriadi
+font author site: http://dimitriana.com/
 
 
-icon designer: Alfredo @ IconsAlfredo.us
-icon designer link: /AlfredoCreates
+icon designer: Lee Mette
+icon designer link: /leemette
         
-{"bg":"#EAF2EF","icon-gradient-0":"#0A3732","icon-gradient-1":"#55C388","font":"#0E261C","slogan":"#223a30"}
+{"bg-gradient-0":"#645B4E","bg-gradient-1":"#DEC9AA","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
       
